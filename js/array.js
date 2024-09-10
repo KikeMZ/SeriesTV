@@ -6,7 +6,7 @@ const series = [
     pais: "EE. UU.",
     sinopsis: "Adaptación del videojuego sobre Joel y Ellie en un mundo postapocalíptico.",
     plataforma: "HBO Max",
-    imagen: "https://cdn1.epicgames.com/offer/0c40923dd1174a768f732a3b013dcff2/EGS_TheLastofUsPartIDigitalDeluxeEdition_NaughtyDogLLC_Editions_S1_2560x1440-c8c0c43aa0157f1236735a0508e59c0d"
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_Last_of_Us_%282013%29_game_logo.png/640px-The_Last_of_Us_%282013%29_game_logo.png"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const series = [
     pais: "EE. UU.",
     sinopsis: "Sigue las aventuras de Din Djarin y Grogu en el universo de Star Wars.",
     plataforma: "Disney+",
-    imagen: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4826879538A92B52B2B316E2E9D5A1BEC5C774C094FF9F96E3265E0D4220E3E6/scale?width=1200&aspectRatio=1.78&format=webp"
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_Mandalorian_logo_black.svg/640px-The_Mandalorian_logo_black.svg.png"
   },
   {
     id: 3,
@@ -78,7 +78,7 @@ const series = [
     pais: "EE. UU.",
     sinopsis: "Secuela de la película de fantasía de 1988 que enfrenta críticas divididas.",
     plataforma: "Disney+",
-    imagen: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FA1D14BA33D3CA3FA91C96D2092DA9E724FC6F4B33AA82F7AF4365E48E999594/scale?width=1200&aspectRatio=1.78&format=webp"
+    imagen: "https://www.clarin.com/img/2022/12/02/Z52ClkCG5_2000x1500__1.jpg"
   },
   {
     id: 10,
@@ -145,7 +145,7 @@ const todasSeries = [
     pais: "EE. UU.",
     sinopsis: "Adaptación del videojuego sobre Joel y Ellie en un mundo postapocalíptico.",
     plataforma: "HBO Max",
-    imagen: "https://cdn1.epicgames.com/offer/0c40923dd1174a768f732a3b013dcff2/EGS_TheLastofUsPartIDigitalDeluxeEdition_NaughtyDogLLC_Editions_S1_2560x1440-c8c0c43aa0157f1236735a0508e59c0d"
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_Last_of_Us_%282013%29_game_logo.png/640px-The_Last_of_Us_%282013%29_game_logo.png"
   },
   {
     id: 2,
@@ -154,7 +154,7 @@ const todasSeries = [
     pais: "EE. UU.",
     sinopsis: "Sigue las aventuras de Din Djarin y Grogu en el universo de Star Wars.",
     plataforma: "Disney+",
-    imagen: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4826879538A92B52B2B316E2E9D5A1BEC5C774C094FF9F96E3265E0D4220E3E6/scale?width=1200&aspectRatio=1.78&format=webp"
+    imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_Mandalorian_logo_black.svg/640px-The_Mandalorian_logo_black.svg.png"
   },
   {
     id: 3,
@@ -217,7 +217,7 @@ const todasSeries = [
     pais: "EE. UU.",
     sinopsis: "Secuela de la película de fantasía de 1988 que enfrenta críticas divididas.",
     plataforma: "Disney+",
-    imagen: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FA1D14BA33D3CA3FA91C96D2092DA9E724FC6F4B33AA82F7AF4365E48E999594/scale?width=1200&aspectRatio=1.78&format=webp"
+    imagen: "https://www.clarin.com/img/2022/12/02/Z52ClkCG5_2000x1500__1.jpg"
   },
   {
     id: 10,
