@@ -6,7 +6,7 @@ const id = parseInt(params.get("id"), 10);
 
 function obtenerElementosAleatorios(cantidad) {
   // Verificar que la cantidad solicitada no sea mayor que el tamaño del arreglo
-  if (cantidad > series.length) {
+  if (cantidad > todasSeries.length) {
     throw new Error("La cantidad solicitada excede la longitud del arreglo.");
   }
 
@@ -15,16 +15,16 @@ function obtenerElementosAleatorios(cantidad) {
 
   // Seleccionar índices aleatorios sin repetición
   while (indicesSeleccionados.size < cantidad) {
-    const indiceAleatorio = Math.floor(Math.random() * series.length);
+    const indiceAleatorio = Math.floor(Math.random() * todasSeries.length);
     indicesSeleccionados.add(indiceAleatorio);
   }
 
-  return Array.from(indicesSeleccionados).map((indice) => series[indice]);
+  return Array.from(indicesSeleccionados).map((indice) => todasSeries[indice]);
 }
 
-if (!isNaN(id) && id <= series.length) {
+if (!isNaN(id) && id <= todasSeries.length) {
   // Obtener la serie correspondiente
-  const serieSeleccionada = series.find((serie) => serie.id === id);
+  const serieSeleccionada = todasSeries.find((serie) => serie.id === id);
 
   if (serieSeleccionada) {
     document.getElementById("nom").innerHTML = serieSeleccionada.titulo;
@@ -34,6 +34,7 @@ if (!isNaN(id) && id <= series.length) {
     document.getElementById("plataforma").innerHTML =
       serieSeleccionada.plataforma;
     document.getElementById("sinopsis").innerHTML = serieSeleccionada.sinopsis;
+    document.getElementById("imagenCanva").src = serieSeleccionada.imagen;
   } else {
     document.getElementById("nom").innerHTML = "<p>Detalles no disponibles</p>";
   }
@@ -47,7 +48,7 @@ seriesAleatorias.forEach((serie) => {
   contenido += `<div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="${serie.imagen}" alt="..." style="height: 200px;"/>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
